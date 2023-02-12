@@ -1,4 +1,4 @@
-# finalCapstone Project
+## finalCapstone Project
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 #### About the project:
@@ -7,7 +7,7 @@ A Python program that reads and prepares shoe data from 'inventory.txt' for pres
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-#### Contents:
+#### **Contents:**
 #### 1. Project Description
 #### 2. Code Syntax, Installation and Use
 #### 3. Credits
@@ -42,7 +42,7 @@ This class also contains the following methods:
 Pre-requisites: This program does not require the installation of any Module libraries.
 Usage: To start the program, type the following command into the terminal:
 
-  python inventory.py
+> python inventory.py
 
 
 #### 2.3. Use
@@ -52,7 +52,7 @@ The program will display a menu with eight options:
 ![image](https://user-images.githubusercontent.com/57161263/218339123-7f8c5f97-bc65-465f-8ebc-26a142a128e1.png)
 
 
-#### OPTION 01: Read shoes data from file
+> #### OPTION 01: Read shoes data from file
 This option will read the data from the file named 'inventory.txt' and stores it in memmory prompting the user:
 
 ![image](https://user-images.githubusercontent.com/57161263/218339580-bb3135af-3240-495e-bbdc-aff18aa3bde7.png)
@@ -62,7 +62,7 @@ No other option will work unless the file 'inventory.txt' is pre-loaded. If the 
 ![image](https://user-images.githubusercontent.com/57161263/218339545-2eb1f7a0-88b8-4168-b1fb-11a935634594.png)
 
 
-#### OPTION 02: Register new shoes data
+> #### OPTION 02: Register new shoes data
 This option adds new data to the shoe list for the new shoes that are to be added to the inventory.
 It will prompt the user to enter, the coutry, the shoes code, the product name, the cost and the quatity to be added to the inventory
 
@@ -70,46 +70,46 @@ It will prompt the user to enter, the coutry, the shoes code, the product name, 
 
 Once the above data is introduced a message is displayed to inform the user.
 
-Note: if -1 is typed at any of the above prompts, the program will return to the Main Menu
+_Note: if -1 is typed at any of the above prompts, the program will return to the Main Menu_
 
 
-#### OPTION 03: View all shoes data
+> #### OPTION 03: View all shoes data
 This option is used to view all the shoes data stored in the shoe_list inventory.
 
 ![image](https://user-images.githubusercontent.com/57161263/218340474-094eb8f6-186f-427f-95a3-71411006ffc8.png)
 
 
-#### OPTION 04: Update/Re-stock shoes quantity
+> #### OPTION 04: Update/Re-stock shoes quantity
 This option will update the quantity of shoes selected by the user in the inventory.
 The programme will list the three shoe products with the lowest quantity and suggest which shoes should be restocked.
 Once the product has been identified, the programme will request that the amount be restocked and will notify the user accordingly.
 
 ![image](https://user-images.githubusercontent.com/57161263/218340558-4e92d7e0-13e4-40b7-98ca-1501248e2f30.png)
 
-Note: if -1 is typed at any of the above prompts, the program will return to the Main Menu
+_Note: if -1 is typed at any of the above prompts, the program will return to the Main Menu_
 
 
-#### OPTION 05: Search for shoes by shoes code
+> #### OPTION 05: Search for shoes by shoes code
 This option will allow the user to search for a shoe by entering a code in the form of "SKU00000".
 
 ![image](https://user-images.githubusercontent.com/57161263/218340962-991e535f-9927-4de6-b923-1cc6003a3cb5.png)
 
-Note: if -1 is typed at any of the above prompts, the program will return to the Main Menu
+_Note: if -1 is typed at any of the above prompts, the program will return to the Main Menu_
 
 
-#### OPTION 06: View total cost values for each product 
+> #### OPTION 06: View total cost values for each product 
 This option will calculate the total value of the shoes in stock by multiplying the cost of each item by its quantity and display it accordingly.
 
 ![image](https://user-images.githubusercontent.com/57161263/218341046-331b58da-9579-4634-a4fb-a76296a869e2.png)
 
 
-#### OPTION 07: Highest quantity shoes for sale 
+> #### OPTION 07: Highest quantity shoes for sale 
 This option will output the highest quantity of shoes item for sale.
 
 ![image](https://user-images.githubusercontent.com/57161263/218341090-43a54fef-ab4a-40c2-83c0-9a3c549ffe57.png)
 
 
-#### OPTION 08: Exit 
+> #### OPTION 08: Exit 
 This option will terminate the program and advise the user.
 
 ![image](https://user-images.githubusercontent.com/57161263/218341164-04038f42-e939-4e2d-b22a-5fdc1f7d0a42.png)
